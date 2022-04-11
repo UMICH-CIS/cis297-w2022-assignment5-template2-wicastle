@@ -59,11 +59,35 @@
     <Compile Include="CalculatorGUIForm.Designer.cs">
       <DependentUpon>CalculatorGUIForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="MinMax.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MinMax.Designer.cs">
+      <DependentUpon>MinMax.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Quad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quad.Designer.cs">
+      <DependentUpon>Quad.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StringGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StringGUI.Designer.cs">
+      <DependentUpon>StringGUI.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="CalculatorGUIForm.resx">
       <DependentUpon>CalculatorGUIForm.cs</DependentUpon>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MinMax.resx">
+      <DependentUpon>MinMax.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quad.resx">
+      <DependentUpon>Quad.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -75,6 +99,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="StringGUI.resx">
+      <DependentUpon>StringGUI.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
